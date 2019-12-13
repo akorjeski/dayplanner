@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Day Planner</title>
+  </head>
+  <body>
+
+<!-- This is the navbar at the top     -->
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+  <a class="navbar-brand" href="#">Alexander Korjeski</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="https://akorjeski.github.io/alexander/">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://akorjeski.github.io/alexander/contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://akorjeski.github.io/alexander/portfolio.html">Portfolio</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>  
+  <!-- End of the navbar    -->
+
+<!-- Start of Row 1 -->
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-3"></div>
+<div class="col-md-6 text-center">    
+  <header>
+    <h1 id="pageHeader">Day Planner</h1>
+  </header></div>
+<div class="col-md-3"></div>
+</div>
+<!--This holds the text for the current date!-->
+<div class="row">
+<div class="col-md-3"></div>
+<div class="col-md-6 text-center">    
+  <header>
+    <h1 id="timedateHolder"></h1> 
+  </header></div>
+<div class="col-md-3"></div>
+</div>
+<div class="row">
+    <div class="col-md-2 text-right" id="timeLabel"> 09:00</div>
+    <div class="col-md-8">
+    <input class="timeslot" type="text" name="9am" value="">
+    </div>    
+    <div class="col-md-2" id="buttonHolder"> <button class="editButton">Edit</button></div>
+</div>
+<div class="row">
+    <div class="col-md-2 text-right" id="timeLabel"> 10:00</div>
+    <div class="col-md-8">
+    <input class="timeslot" type="text" name="10am" value="">
+    </div>    
+    <div class="col-md-2" id="buttonHolder"><button class="editButton">Edit</button></div>
+</div>
+<div class="row">
+    <div class="col-md-2 text-right" id="timeLabel"> 11:00</div>
+    <div class="col-md-8">
+    <input class="timeslot" type="text" name="11am" value="">
+    </div>    
+    <div class="col-md-2" id="buttonHolder"><button class="editButton">Edit</button></div>
+</div>
+<div class="row">
+    <div class="col-md-2 text-right" id="timeLabel"> 12:00</div>
+    <div class="col-md-8">
+    <input class="timeslot" type="text" name="12pm" value="">
+    </div>    
+    <div class="col-md-2" id="buttonHolder"><button class="editButton">Edit</button></div>
+</div>
+<div class="row">
+    <div class="col-md-2 text-right" id="timeLabel"> 13:00</div>
+    <div class="col-md-8">
+    <input class="timeslot" type="text" name="1pm" value="">
+    </div>    
+    <div class="col-md-2" id="buttonHolder"><button class="editButton">Edit</button></div>
+</div>
+<div class="row">
+    <div class="col-md-2 text-right" id="timeLabel"> 14:00</div>
+    <div class="col-md-8">
+    <input class="timeslot" type="text" name="2pm" value="">
+    </div>    
+    <div class="col-md-2" id="buttonHolder"><button class="editButton">Edit</button></div>
+</div>
+<div class="row">
+    <div class="col-md-2 text-right" id="timeLabel"> 15:00</div>
+    <div class="col-md-8">
+    <input class="timeslot" type="text" name="3pm" value="">
+    </div>    
+    <div class="col-md-2" id="buttonHolder"><button class="editButton">Edit</button></div>
+</div>
+<div class="row">
+    <div class="col-md-2 text-right" id="timeLabel"> 16:00</div>
+    <div class="col-md-8">
+    <input class="timeslot" type="text" name="4pm" value="">
+    </div>    
+    <div class="col-md-2" id="buttonHolder"><button class="editButton">Edit</button></div>
+</div>
+<div class="row">
+    <div class="col-md-2 text-right" id="timeLabel"> 17:00</div>
+    <div class="col-md-8">
+    <input class="timeslot" type="text" name="5pm" value="">
+    </div>    
+    <div class="col-md-2" id="buttonHolder"><button class="editButton">Edit</button></div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark fixed-bottom">Alexander Korjeski 2019
+</nav>
+</html>
