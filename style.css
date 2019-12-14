@@ -15,10 +15,11 @@ body{
     padding-bottom: 75px;
 }
 
-.editButton{
+.saveButton{
     height: 60%;
 }
 
 #buttonHolder{
     padding-top: 20px;
 }
+
