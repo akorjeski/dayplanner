@@ -1,6 +1,0 @@
-var alexArray = ["dogs","cats","birds","reptiles"];
-
-
-for (var i =0; i < alexArray.length; i++){
-localStorage.setItem("item[i]", "array[i]");
-var item[i] = localStorage.getItem("item[i]");

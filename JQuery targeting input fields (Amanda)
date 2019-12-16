@@ -1,8 +1,0 @@
-NineAMButton.on("click", function(){
-    var amanda = $("#9am").val();
-    console.log(amanda);
-
-})
-
-
-this is how you target an input field and set the value of it equal to what you wrote
