@@ -120,18 +120,6 @@ ThreePMcolorCoded();
 FourPMcolorCoded(); 
 FivePMcolorCoded();
 
- function createEmptyTimeslots(){
-    localStorage.setItem("9amText", 'Can you overwrite me?');
-    localStorage.setItem("10amText", '');
-    localStorage.setItem("11amText", '');
-    localStorage.setItem("12pmText", '');
-    localStorage.setItem("1pmText", '');
-    localStorage.setItem("2pmText", '');
-    localStorage.setItem("3pmText", '');
-    localStorage.setItem("4pmText", '');
-    localStorage.setItem("5pmText", '');
-
- }
 
  function setEmptyTimeslots(){
     var local9 = localStorage.getItem("9amText");
@@ -157,15 +145,44 @@ FivePMcolorCoded();
 
  }
  //invoke the function to set the localStorage items equal to blank
- createEmptyTimeslots();
+//  createEmptyTimeslots();
  //invoke the function to set the text areas equal to blank
  setEmptyTimeslots();
 
 NineAMButton.on("click", function(){
     localStorage.setItem("9amText", $("#9am").val())
-    
-    
+})
 
+TenAMButton.on("click", function(){
+    localStorage.setItem("10amText", $("#10am").val())
+})
+
+ElevenAMButton.on("click", function(){
+    localStorage.setItem("11amText", $("#11am").val())
+})
+
+NoonButton.on("click",function(){
+    localStorage.setItem("12pmText", $("#12pm").val())
+})
+
+OnePMButton.on("click",function(){
+    localStorage.setItem("1pmText", $("#1pm").val())
+})
+
+TwoPMButton.on("click",function(){
+    localStorage.setItem("2pmText", $("#2pm").val())
+})
+
+ThreePMButton.on("click",function(){
+    localStorage.setItem("3pmText", $("#3pm").val())
+})
+
+FourPMButton.on("click",function(){
+    localStorage.setItem("4pmText", $("#4pm").val())
+})
+
+FivePMButton.on("click",function(){
+    localStorage.setItem("5pmText", $("#5pm").val())
 })
 // on click
 //save to local storage and set value = localstorage value
